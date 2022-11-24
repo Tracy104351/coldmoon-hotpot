@@ -1,0 +1,236 @@
+body{
+    max-width: 1440px;
+    height: 3910px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: 'Noto Serif TC', serif;
+    background-color: #000000;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@900&display=swap');
+
+/* 頁首阿　開始:） */
+.container{
+    
+    width: 100%;
+    height: 100%;
+}
+.top{
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100% ;
+    height: 131px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.LOGO{
+    width: 185px;
+    height: 112px;
+    margin-right: 150px;
+}
+
+.LOGO img{
+    width: 100%;
+
+}
+
+.list{
+    display: flex;
+    box-sizing: border-box;
+    list-style-type:none;
+    cursor: pointer;
+    
+}
+
+.nav{
+    margin:30px;
+    font-size: 24px;
+
+}
+
+.nav:hover{
+    color: rgba(193, 25, 25);
+}
+
+/* 中間了QQ */
+.main{
+    
+    margin-top: 120px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bigimg{
+    
+    width: 1360px;
+    height: 893px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.word{
+    position: absolute;
+    width: 576px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.coldpot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 96px;
+}
+
+.nice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+
+/* 火鍋鍋 */
+.redbox{
+    margin-top: 100px;
+    width: 1360px;
+    height: 1824px;
+    background: rgba(193, 25, 25, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.good{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #F1EEE9;
+}
+
+.hoppot{
+    width: 894px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 120px;
+}
+
+.hoppots{
+    width: 894px;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content:space-between;
+    margin-bottom: 120px;
+}
+
+.pword{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+.pword h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+
+    color: #F1EEE9;
+}
+
+.pword p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 50px;
+
+    color: #F1EEE9;
+}
+
+/* 據點阿*/
+
+.location{
+    width: 1272px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.add{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.add p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F1EEE9;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.add p::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    background-color: rgba(193, 25, 25);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .3s linear;
+    
+}
+
+.add p:hover::after{
+    width: 100%;
+}
+
+/* 頁尾了 */
+
+.end{
+    margin-top: 215px;
+    width: 1440px;
+}
+.white{
+    bottom: 0;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.icon{
+    width: 210px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
